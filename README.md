@@ -50,7 +50,7 @@ Every wallet on the Solana blockchain has a unique identifier, called the public
 Apart from the public key, you also have something called the private key - which is again a cryptographic string of alpha-numeric characters. Your private key (which you shouldn't share with anyone) along with your public key (wallet address) is used to verify your identity on the Solana Blockchain.
 
 
-![1_solana_keygen](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/1_solana_keygen.png)
+![keygen](https://github.com/psu246/solcurrency/blob/master/learn_assets/keygen.PNG)
 
 
 To check the balance of your newly created wallet, you can simply type
@@ -78,9 +78,8 @@ solana airdrop 1 <public key> --url https://api.devnet.solana.com
 ```
 
 
-![3](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/3_solana_airdrop.png)
 To check your new balance, run the following command
-![4](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/4_solana_balance.png)
+![4](https://github.com/psu246/solcurrency/blob/master/learn_assets/balance.PNG)
 
 
 ## Creating your own tokens
@@ -113,7 +112,7 @@ spl-token create-account <token address> --url https://api.devnet.solana.com
 ```
 
 
-![6](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/6_solana_create_account.png)
+![6](https://github.com/psu246/solcurrency/blob/master/learn_assets/create%20account.PNG)
 
 
 In the above image ‘BghFzN668wXWQQPF924c1C5vpDwXcWo5FCEMzcHT195x’ is an empty token account in our wallet.
@@ -131,7 +130,7 @@ spl-token mint <token address> <number of tokens to be minted>
 ```
 
 
-![8](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/8_solana_token_mint.png)
+![8](https://github.com/psu246/solcurrency/blob/master/learn_assets/mint.PNG)
 
 
 To confirm that the newly created tokens have been added to your account, run the command for checking the balance of your account, as we had done earlier.
@@ -175,7 +174,7 @@ spl-token burn <source token account address> <tokens to be burnt>
 ```
 
 
-![12](https://github.com/altsam/create_crypto_with_solana_cli/raw/main/learn_assets/12_solana_burn.png)
+![12](https://github.com/psu246/solcurrency/blob/master/learn_assets/burn.PNG)
 
 
 ## Distributing with your friends
