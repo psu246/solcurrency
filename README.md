@@ -155,7 +155,7 @@ Let’s say you are creating tokens to raise money for your next project. You pl
 Solana provides us the ability to disable our minting authority, and never enable it back. We can do so by running the following command.
 
 ```
-spl-token authorize <token address> mint –disable
+spl-token authorize <token address> mint --disable
 ```
 
 
